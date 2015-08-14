@@ -1,8 +1,0 @@
-1>------ Build started: Project: App_vc12, Configuration: x86 Debug Win32 ------
-1>  App.cpp
-1>     Creating library Debug_App_vc12_x86\App.lib and object Debug_App_vc12_x86\App.exp
-1>  App_vc12.vcxproj -> C:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\Debug_App_vc12_x86\App.s86
-1>  C:\Marmalade\7.8\s3e\python\python.exe .\process_map.py "C:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\Debug_App_vc12_x86\App.s86"
-1>  "s3e_plink" -l "C:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\Debug_App_vc12_x86\App.s86" 
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
-

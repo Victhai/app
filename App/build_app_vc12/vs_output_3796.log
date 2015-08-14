@@ -1,5 +1,0 @@
-1>------ Build started: Project: App_vc12, Configuration: x86 Debug Win32 ------
-1>  App.cpp
-1>c:\users\ext.vicu\desktop\app\app\app\source\app.cpp(20): error C3861: 'movePic': identifier not found
-========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
-

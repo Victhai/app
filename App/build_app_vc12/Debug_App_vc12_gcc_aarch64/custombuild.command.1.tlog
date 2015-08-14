@@ -1,0 +1,2 @@
+^C:\USERS\EXT.VICU\DESKTOP\APP\APP\APP\APP.MKB
+"C:\Marmalade\7.8\s3e\python\python.exe" "C:\Marmalade\7.8\s3e\makefile_builder\mkb.py" "c:/Users/ext.vicu/Desktop/App/app/App/App.mkb" "--buildenv=VC12" "--default-buildenv=vc12" --msvc-project

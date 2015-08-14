@@ -1,0 +1,31 @@
+﻿Build started 2015-07-30 12:34:18.
+     1>Project "C:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\App_vc12.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Marmalade\7.8\s3e\bin\CL.exe /c /Ic:/marmalade/7.8/extensions/s3eamazonads/h /Ic:/marmalade/7.8/modules/iwutil/h /Ic:/marmalade/7.8/modules/third_party/libjpeg/h /Ic:/marmalade/7.8/modules/third_party/zlib/h /Ic:/marmalade/7.8/modules/third_party/libpng/h /Ic:/marmalade/7.8/modules/iw2dscenegraphcore/h /Ic:/marmalade/7.8/modules/iw2dscenegraph/h /Ic:/marmalade/7.8/modules/iw2d/h /Ic:/marmalade/7.8/modules/iwgx/h /Ic:/marmalade/7.8/modules/iwgl/h /Ic:/marmalade/7.8/modules/iwgeom/h /Ic:/marmalade/7.8/modules/iwresmanager/h /Ic:/marmalade/7.8/extensions/pvrtextool/h /Ic:/marmalade/7.8/modules/iwgxfont/h /Ic:/marmalade/7.8/modules/third_party/tiniconv/source /Ic:/marmalade/7.8/modules/iwtween/h /Ic:/marmalade/7.8/s3e/h /Ic:/marmalade/7.8/s3e/h/ext /Ic:/marmalade/7.8/s3e/h/std /Ic:/marmalade/7.8/s3e/h/std/c++ /Ic:/marmalade/7.8/s3e/h/ext_legacy /Ic:/marmalade/7.8/s3e/h/legacy /I. /Z7 /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_App_vc12_gcc_aarch64\\" /Fd"Debug_App_vc12_gcc_aarch64\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /Fe"s3e-custom-tool='c:/marmalade/7.8/s3e/gcc/win32/aarch64/bin/aarch64-none-elf-gcc.exe' tooltype=gcc_aarch64_compiler -funsigned-char -fno-strict-aliasing -fno-stack-protector -fno-short-enums -fshort-wchar -Wall -fomit-frame-pointer -fmessage-length=0 -Wno-unused -Wno-parentheses -ffixed-x18 -save-temps -ffunction-sections -march=armv8-a -Wno-switch -Wno-psabi -fvisibility=hidden -nostdinc -fPIC --cppflag=-Wno-reorder --cppflag=-fvisibility-inlines-hidden --cppflag=-fno-exceptions --cppflag=-nostdinc++ -g -O0 -gdwarf-2" /FD  /FI"c:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\temp_defines_debug.h" ..\source\App.cpp ..\source\Audio.cpp ..\source\Input.cpp c:\marmalade\7.8\extensions\s3eamazonads\interface\s3eAmazonAds_interface.cpp
+         AARCH64 Compiling(GCC) C:\Users\ext.vicu\Desktop\App\app\App\source\App.cpp ...
+         AARCH64 Compiling(GCC) C:\Users\ext.vicu\Desktop\App\app\App\source\Audio.cpp ...
+         AARCH64 Compiling(GCC) C:\Users\ext.vicu\Desktop\App\app\App\source\Input.cpp ...
+         AARCH64 Compiling(GCC) c:\marmalade\7.8\extensions\s3eamazonads\interface\s3eAmazonAds_interface.cpp ...
+       Link:
+         C:\Marmalade\7.8\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_App_vc12_gcc_aarch64\App.s3e" /INCREMENTAL /NOLOGO /LIBPATH:"c:/marmalade/7.8/modules/iwutil/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/modules/third_party/libjpeg/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/modules/third_party/zlib/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/modules/third_party/libpng/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/modules/iw2d/lib/aarch64/v8-a/simd" /LIBPATH:c:/marmalade/7.8/modules/iwgx/atitools /LIBPATH:"c:/marmalade/7.8/modules/iwgx/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/modules/iwgl/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/modules/iwgeom/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/modules/iwresmanager/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/modules/iwgxfont/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/modules/third_party/tiniconv/lib/aarch64/v8-a/simd" /LIBPATH:"c:/marmalade/7.8/s3e/lib/aarch64/v8-a/simd" /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"Debug_App_vc12_gcc_aarch64\App.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_App_vc12_gcc_aarch64\App.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12/COMMENT:"s3e-custom-tool='c:/marmalade/7.8/s3e/gcc/win32/aarch64/bin/aarch64-none-elf-g++.exe' tooltype=gcc_aarch64_linker -Wl,--gc-sections -Wl,--as-needed -march=armv8-a -pie -Wl,--entry=_IwMain -Wl,--no-enum-size-warning -Wl,-Taarch64_linker_script -lc -lm -Wl,-Map='Debug_App_vc12_gcc_aarch64\/App.map' -Wl,--start-group -liwutil_d -ljpeg_d -lz_d -lpng_d -liw2d_d -liwgx_d -liwgl_d -liwgeom_d -liwresmanager_d -liwgxfont_d -ltiniconv_d -ls3e_cpp_d -ls3e_d -ls3e_api_iwgl -Wl,--end-group --plink:--arch=armv8-a --plink:--compiler=rvct --plink:-u" /DLL Debug_App_vc12_gcc_aarch64\App.obj
+         Debug_App_vc12_gcc_aarch64\Audio.obj
+         Debug_App_vc12_gcc_aarch64\Input.obj
+         Debug_App_vc12_gcc_aarch64\Iw2DSceneGraph.obj
+         Debug_App_vc12_gcc_aarch64\Iw2DSceneGraphCore.obj
+         Debug_App_vc12_gcc_aarch64\IwTween.obj
+         Debug_App_vc12_gcc_aarch64\PVRTexTool_interface.obj
+         Debug_App_vc12_gcc_aarch64\s3eAmazonAds_interface.obj
+         AARCH64 Linking(GCC) ...
+         App_vc12.vcxproj -> C:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\Debug_App_vc12_gcc_aarch64\App.s3e
+       PostBuildEvent:
+         echo C:\Marmalade\7.8\s3e\python\python.exe .\process_map.py "C:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\Debug_App_vc12_gcc_aarch64\App.s3e"
+         chdir /d "c:\marmalade\7.8\s3e\tools"
+         C:\Marmalade\7.8\s3e\python\python.exe .\process_map.py "C:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\Debug_App_vc12_gcc_aarch64\App.s3e"
+         
+         :VCEnd
+         C:\Marmalade\7.8\s3e\python\python.exe .\process_map.py "C:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\Debug_App_vc12_gcc_aarch64\App.s3e"
+     1>Done Building Project "C:\Users\ext.vicu\Desktop\App\app\App\build_app_vc12\App_vc12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.79

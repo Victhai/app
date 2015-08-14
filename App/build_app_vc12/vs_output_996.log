@@ -1,0 +1,7 @@
+1>------ Build started: Project: App_vc12, Configuration: x86 Debug Win32 ------
+1>  App.cpp
+1>     Creating library Debug_App_vc12_x86\App.lib and object Debug_App_vc12_x86\App.exp
+1>Input.obj : error LNK2019: unresolved external symbol "public: static void __cdecl Input::multiTouchMovingCb(struct s3ePointerTouchMotionEvent *)" (?multiTouchMovingCb@Input@@SAXPAUs3ePointerTouchMotionEvent@@@Z) referenced in function "public: __thiscall Input::Input(void)" (??0Input@@QAE@XZ)
+1>Debug_App_vc12_x86\App.s86 : fatal error LNK1120: 1 unresolved externals
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
